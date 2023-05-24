@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag dv6102work/app.py:$(date +%s)
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/app.py
+      run: docker push ${{secrets.DOCKER_USER}}/app.py:$(date +%s)
