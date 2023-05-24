@@ -22,9 +22,6 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag dv6102work/app.py:$(date +%s)
-    
-    - name: Docker tag
-      run: docker tag app.py:latest ${{secrets.DOCKER_USER}}/app.py:latest
       
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/app.py
+      run: docker push ${{secrets.DOCKER_USER}}/test
