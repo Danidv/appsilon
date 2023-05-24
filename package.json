@@ -1,0 +1,16 @@
+{
+  "name": "appsilon-docker",
+  "version": "1.0",
+  "description": "Appsilon Infra Engineer Docker Task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "python",
+    "flask"
+  ],
+  "author": "Daniel Vieira",
+  "homepage":"https://www.linkedin.com/in/danielvieira6102/"
+}
