@@ -11,4 +11,4 @@ To Do:
 2) Prepare the Dockerfile, which can be used to build the container. Provide information how to build the image locally (with Docker/Podman) and run the container
 3) Prepare CI process (GitHub Workflows/Gitlab CI), which builds the container image, and pushes it to a registry (e.g. Docker Hub, Quay.io, GitHub Container Registry). The CI should be run on push to main branch, and periodically on Saturday at 7 PM (push an image with the latest tag)
 
-Points Docker Hub repository: https://hub.docker.com/repository/docker/dv6102work/app.py/general
+Docker Hub repository: https://hub.docker.com/repository/docker/dv6102work/app.py/general
